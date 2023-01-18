@@ -71,3 +71,17 @@ body .domain-subtitle {
     background: orangered;
     transition: 1s;
 }
+.text-box4{
+    width: 90%;
+    color: #03A9F4 ;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box4 p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #a200ff;
+}
