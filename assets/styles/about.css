@@ -70,7 +70,7 @@ html, body {
 }
 .nav-links2{
     flex: 1;
-    text-align: center;
+    text-align: right;
 }
 .nav-links2 ul li{
     list-style: none;
@@ -95,30 +95,19 @@ html, body {
 .nav-links2 ul li:hover::after{
     width: 100%;
 }
-.nav-links3{
-    flex: 1;
-    text-align: center;
-}
-.nav-links3 ul li{
-    list-style: none;
+.hero-btn{
     display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-.nav-links3 ul li a{
-    color: #fff;
     text-decoration: none;
+    color: blue;
+    border: 1px solid white;
+    padding: 12px 34px;
     font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
 }
-.nav-links3 ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: red;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-.nav-links3 ul li:hover::after{
-    width: 100%;
+.hero-btn:hover{
+    border: 1px solid orangered;
+    background: orangered;
+    transition: 1s;
 }

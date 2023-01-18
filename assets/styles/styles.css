@@ -30,7 +30,7 @@ body .domain-subtitle {
 }
 .nav-links{
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 .nav-links ul li{
     list-style: none;
@@ -54,4 +54,20 @@ body .domain-subtitle {
 }
 .nav-links ul li:hover::after{
     width: 100%;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid orangered;
+    background: orangered;
+    transition: 1s;
 }
